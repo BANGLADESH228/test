@@ -1,0 +1,7 @@
+- Nikto v2.1.6/2.1.5
++ Target Host: www.datasunrise.com
++ Target Port: 80
++ GET The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ GET Uncommon header 'report-to' found, with contents: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fEVI5F8THYCRZdrQDXlBRfABjuVUWIm0I2e8SgHo3PdKZL%2ByL4voNZ%2F7tjfNWkpMe1MZ0bxF1QXyxVTVL4ltsjdmLEUfWyL9Gf5ipy6eZ5FjRRQN1rfYXpgYeQpOSlsIO5HMKJM%3D"}],"group":"cf-nel","max_age":604800}
++ GET Uncommon header 'nel' found, with contents: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
++ GET The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
